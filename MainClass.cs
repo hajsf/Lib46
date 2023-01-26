@@ -16,7 +16,6 @@ namespace Lib46
     {
         /// <Summary>
         /// Method <c>SendAsync</c>
-        /// <summary>
         /// This method sends an HTTP request to a localhost server
         /// with a JSON payload containing an "id" and "name" field.
         /// The "name" field is set to the value of the value passed
