@@ -4,7 +4,14 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 
 namespace Lib46
+///using Lib46 called FunNames
+//{
 {
+    /// <Summary>
+    /// Class <c>Falak_Integration</c>
+    ///is a simple class that contain a method 
+    ///  which called <c>SendAsync</c>
+    /// </Summary>
     public class Falak_Integration
     {
         public async Task SendAsync(string name)
@@ -17,10 +24,11 @@ namespace Lib46
                 Content = new StringContent("{\"id\":\"3\",\"name\":\"" + name + "\"}")
                 {
                     Headers =
-        {
-            ContentType = new MediaTypeHeaderValue("application/json")
-        }
+                {
+                    ContentType = new MediaTypeHeaderValue("application/json")
                 }
+                }
+                
             };
             using (var response = await client.SendAsync(request))
             {
