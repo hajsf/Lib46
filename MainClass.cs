@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 
 namespace Lib46
-///using Lib46 called FunNames
+///using namespae called Lib46
 //{
 {
     /// <Summary>
