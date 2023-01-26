@@ -14,6 +14,9 @@ namespace Lib46
     /// </Summary>
     public class Falak_Integration
     {
+        /// <Summary>
+        /// a Method <c>SendAsync</c>
+        
         public async Task SendAsync(string name)
         {
             var client = new HttpClient();
