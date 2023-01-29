@@ -25,7 +25,7 @@ namespace Lib46
         /// body that is returned from the server.
         /// </Summary>
 
-        /// a Method <c>SendAsync</c>
+
         
 
         public async Task SendAsync(string name)
