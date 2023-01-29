@@ -10,7 +10,8 @@ namespace Lib46
     /// <Summary>
     /// Class <c>Falak_Integration</c>
     ///is a simple class that contain a method 
-    ///  which called <c>SendAsync</c>
+    ///  which called <c>SendAsync</c> will use it to send 
+    ///request and return some values.
     /// </Summary>
     public class Falak_Integration
     {
