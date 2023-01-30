@@ -3,14 +3,15 @@ using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using System.Net.Http;
 
-namespace Lib46
 ///using namespae called Lib46
 //{
+namespace Lib46
 {
     /// <Summary>
     /// Class <c>Falak_Integration</c>
     ///is a simple class that contain a method 
-    ///  which called <c>SendAsync</c>
+    ///  which called <c>SendAsync</c> will use it to send 
+    ///request and return some values.
     /// </Summary>
     public class Falak_Integration
     {
@@ -24,7 +25,7 @@ namespace Lib46
         /// body that is returned from the server.
         /// </Summary>
 
-        /// a Method <c>SendAsync</c>
+
         
 
         public async Task SendAsync(string name)
